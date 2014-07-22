@@ -1,8 +1,8 @@
 SITE_CONFIG = {
-    'mainTitle': 'USGIN Document Repository',
-    'mainSubTitle': 'document archiving and metadata management',
+    'mainTitle': 'NRRC Document Repository',
+    'mainSubTitle': 'alert and document management',
     'copyrightOwner': 'Arizona Geological Survey',
     'copyrightOwnerUrl': 'http://azgs.az.gov/',
-    'copyrightYear': '2012',
-    'mainLogo': '/static/img/usgin.png'               
+    'copyrightYear': '2014',
+    'mainLogo': '/static/img/state-map.png'
 }

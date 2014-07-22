@@ -44,7 +44,7 @@ block sidebar-content
 			h2#map-title.block-title Resource Location
 			#map-content.block-content
 				#map
-				
+
 		#formal-metadata-block
 			h2#formal-metadata-title.block-title Standard Metadata
 			#formal-metadata-content.block-content
@@ -156,18 +156,18 @@ block page-content
 									a(href="mailto:#{distributor['ContactInformation']['email']}?Subject=#{record['Title']}")
 										span(itemprop="email")= distributor.ContactInformation.email
 		fieldset#geo-extent.box-container
-			legend.box-container-title Geographic Extent
+			legend.box-container-title Geographic Extedddnt
 			#geo-extent-info-container.box-subcontainer(itemprop="about", itemscope, itemtype="http://schema.org/GeoShape")
 				meta(itemprop="box", content="#{record['GeographicExtent']['EastBound']} #{record['GeographicExtent']['NorthBound']}, #{record['GeographicExtent']['WestBound']} #{record['GeographicExtent']['NorthBound']}, #{record['GeographicExtent']['WestBound']} #{record['GeographicExtent']['SouthBound']}, #{record['GeographicExtent']['EastBound']} #{record['GeographicExtent']['SouthBound']}, #{record['GeographicExtent']['EastBound']} #{record['GeographicExtent']['NorthBound']}")
 				div
-					strong North Bounding Latitude: 
+					strong North Bounding Latitude:
 					span= record.GeographicExtent.NorthBound
 				div
-					strong South Bounding Latitude: 
+					strong South Bounding Latitude:
 					span= record.GeographicExtent.SouthBound
 				div
-					strong East Bounding Longitude: 
+					strong East Bounding Longitude:
 					span= record.GeographicExtent.EastBound
 				div
-					strong West Bounding Longitude: 
+					strong West Bounding Longitude:
 					span= record.GeographicExtent.WestBound

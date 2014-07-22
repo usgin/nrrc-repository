@@ -6,13 +6,13 @@
 		else
 			input(type="checkbox", attr="Published")
 #resource-title.required.key-value
-	span.label Title
+	span.label Title of Proposed Action
 	input(attr="Title", value="#{Title}")
 #resource-description.required.key-value.textarea-container
-	span.label Description
+	span.label Proposed Action Abstract/Pertinent Url(s)
 	textarea.content(attr="Description")= Description
 #resource-publicationDate.required.key-value
-	span.label Publication Date
+	span.label Posting Date
 	input(type="datetime-local", attr="PublicationDate", value="#{PublicationDate}")
 #resource-resourceId.key-value
 	span.label Resource ID
